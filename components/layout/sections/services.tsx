@@ -17,25 +17,25 @@ interface ServiceProps {
 }
 const serviceList: ServiceProps[] = [
   {
-    title: "Custom Domain Integration",
+    title: "WhatsApp Automation",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
+      "Automated replies, appointment booking, cart recovery.",
     pro: 0,
   },
   {
-    title: "Social Media Integrations",
+    title: "Ecommerce AI Assistant",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
+      "Cart abandonment recovery, upselling, review requests.",
     pro: 0,
   },
   {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
+    title: "Lead Capture & Nurturing",
+    description: "Chatbots, email automation, personalized follow-ups.",
     pro: 0,
   },
   {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
+    title: "Custom AI & API Integrations",
+    description: "For businesses needing unique solutions.",
     pro: 1,
   },
 ];

@@ -12,29 +12,29 @@ import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export const metadata = {
-  title: "Shadcn - Landing template",
-  description: "Free Shadcn landing page for developers",
+  title: "AI-Powered Business Automation Solutions",
+  description: "Automate your business operations and boost revenue with AI.",
   openGraph: {
     type: "website",
-    url: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    url: "https://your-website-url.com",
+    title: "AI-Powered Business Automation Solutions",
+    description: "Automate your business operations and boost revenue with AI.",
     images: [
       {
-        url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
+        url: "https://your-image-url.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Shadcn - Landing template",
+        alt: "AI-Powered Business Automation Solutions",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    site: "@your-twitter-handle",
+    title: "AI-Powered Business Automation Solutions",
+    description: "Automate your business operations and boost revenue with AI.",
     images: [
-      "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
+      "https://your-image-url.com/og-image.jpg",
     ],
   },
 };
@@ -43,16 +43,11 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <SponsorsSection />
       <BenefitsSection />
-      <FeaturesSection />
       <ServicesSection />
-      <TestimonialSection />
-      <TeamSection />
+      {/* <HowItWorksSection /> */}
       <CommunitySection />
-      <PricingSection />
       <ContactSection />
-      <FAQSection />
       <FooterSection />
     </>
   );

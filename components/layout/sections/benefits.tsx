@@ -11,27 +11,27 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "Blocks",
-    title: "Build Brand Trust",
+    title: "Automate Operations",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Save time and reduce manual work with our AI-powered automation solutions.",
   },
   {
     icon: "LineChart",
-    title: "More Leads",
+    title: "Increase Revenue",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Boost your sales and conversions with intelligent AI-driven strategies.",
   },
   {
     icon: "Wallet",
-    title: "Higher Conversions",
+    title: "Enhance Customer Experience",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Provide personalized and efficient customer interactions with AI.",
   },
   {
     icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    title: "Optimize Business Processes",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Streamline your workflows and improve efficiency with custom AI integrations.",
   },
 ];
 
@@ -43,12 +43,11 @@ export const BenefitsSection = () => {
           <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
+            Unlock the Power of AI for Your Business
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+            Discover how our AI-powered solutions can transform your business operations,
+            increase revenue, and enhance customer experience.
           </p>
         </div>
 
